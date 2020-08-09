@@ -5,6 +5,8 @@
 	"description": "",
 	"main": "index.jsx",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "parcel index.html"
 	},
 	"keywords": [],
