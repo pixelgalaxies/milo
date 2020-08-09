@@ -1,0 +1,25 @@
+{
+	"homepage": "htpp://pixelgalaxies.github.io/milo",
+	"name": "Milo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.jsx",
+	"scripts": {
+		"start": "parcel index.html"
+	},
+	"keywords": [],
+	"author": "pixelgalaxies",
+	"license": "ISC",
+	"dependencies": {
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"gh-pages": "^3.1.0",
+		"parcel-bundler": "^1.12.4"
+	}
+}
